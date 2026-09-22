@@ -1,7 +1,7 @@
 # Taller integrador individual — Parte A
 
 ## Nombre
-[ESCRIBE AQUÍ TU NOMBRE COMPLETO]
+Mariangell Cabrera Contreras
 
 ## Descripción
 Auditoría y corrección de una calculadora de promedio de tres notas, aplicando buenas prácticas de desarrollo de software y control de versiones.
@@ -25,7 +25,6 @@ Auditoría y corrección de una calculadora de promedio de tres notas, aplicando
 | Había mensajes `console.log()` innecesarios | No aportaban funcionalidad al usuario final y eran restos de depuración. | Se eliminaron. |
 
 ## Sitio publicado
-[PEGA AQUÍ LA URL DE NETLIFY]
+https://taller-integrador-cabrera.netlify.app
 
-## Repositorio
-[PEGA AQUÍ LA URL DE GITHUB]
+
