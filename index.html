@@ -27,23 +27,17 @@
     </div>
 
 <script>
-
-let promedio = 0;
-
 function calcularPromedio() {
-
     const nota1 = parseFloat(document.getElementById("n1").value);
     const nota2 = parseFloat(document.getElementById("n2").value);
     const nota3 = parseFloat(document.getElementById("n3").value);
-
-    console.log("valores capturados:", nota1, nota2, nota3);
 
     if (isNaN(nota1) || isNaN(nota2) || isNaN(nota3)) {
         document.getElementById("r").innerHTML = "Debe ingresar las tres notas.";
         return;
     }
 
-    promedio = (nota1 + nota2 + nota3) / 3;
+    const promedio = (nota1 + nota2 + nota3) / 3;
 
     document.getElementById("r").innerHTML = "Promedio: " + promedio.toFixed(2);
 
@@ -52,17 +46,7 @@ function calcularPromedio() {
     } else {
         document.getElementById("r2").innerHTML = "Resultado: reprobado";
     }
-
-    console.log("promedio calculado");
 }
-
-// function calcularAntiguo(nota1, nota2) {
-//     let suma = nota1 + nota2;
-//     return suma / 2;
-// }
-
-console.log("pagina cargada");
-
 </script>
 
 </body>
